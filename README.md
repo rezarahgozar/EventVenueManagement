@@ -34,7 +34,7 @@ This monolithic architecture project aims for fast development, completing the i
 *	Get information about a specific event: [Link](https://dy2t2lv56sjuukafecrzvlbyue0aaixj.lambda-url.us-east-1.on.aws/EventVenue/GetEvent/10000)
 ```
     Parameter:
-	`{eventId}`
+	{eventId}
 ```
 
 ## User Interface with React
