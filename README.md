@@ -24,15 +24,18 @@ This monolithic architecture project aims for fast development, completing the i
 *	Get all data from the source: [Link](https://dy2t2lv56sjuukafecrzvlbyue0aaixj.lambda-url.us-east-1.on.aws/EventVenue/GetEventVenueList)
 *	Get all venues: [Link](https://dy2t2lv56sjuukafecrzvlbyue0aaixj.lambda-url.us-east-1.on.aws/EventVenue/GetVenueList)
 *	Get all events related to a venue, year, and month: [Link](https://dy2t2lv56sjuukafecrzvlbyue0aaixj.lambda-url.us-east-1.on.aws/EventVenue/GetEventList)
+```
 	Parameters:
 { 
 	"venueId": 919,
 	"selectedDate": "2022-06-23" 
-} 
+}
+```
 *	Get information about a specific event: [Link](https://dy2t2lv56sjuukafecrzvlbyue0aaixj.lambda-url.us-east-1.on.aws/EventVenue/GetEvent/10000)
+```
     Parameter:
 	`{eventId}`
-
+```
 
 ## User Interface with React
 The next phase of the project involves creating a user interface using React. This will provide a dynamic and interactive front-end for users to seamlessly interact with the application.
